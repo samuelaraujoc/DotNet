@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\DotNet\\calculator\\Calculator.csproj": {}
+    "D:\\Github\\DotNet\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "D:\\Github\\DotNet\\calculator\\Calculator.csproj": {
+    "D:\\Github\\DotNet\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\DotNet\\calculator\\Calculator.csproj",
+        "projectUniqueName": "D:\\Github\\DotNet\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "D:\\Github\\DotNet\\calculator\\Calculator.csproj",
+        "projectPath": "D:\\Github\\DotNet\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\DotNet\\calculator\\obj\\",
+        "outputPath": "D:\\Github\\DotNet\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config"
