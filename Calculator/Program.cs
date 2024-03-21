@@ -6,7 +6,10 @@ namespace Calculator
     {
         static void Main(String[] args)
         {
-            Console.Clear();
+            Soma();
+        }
+            static void Soma (){
+                Console.Clear();
 
             Console.WriteLine("Primeiro Valor: ");
             float v1 = float.Parse(Console.ReadLine());
@@ -16,6 +19,7 @@ namespace Calculator
 
             float resultado = v1 + v2;
             Console.WriteLine("O Resultado da soma é " + resultado);
-        }
+            }
+        
     }
 }
