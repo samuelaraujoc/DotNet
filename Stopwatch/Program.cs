@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 
+//(donet run) para rodar aplicação
 namespace Stowatch
 {
     class Program
@@ -19,9 +20,17 @@ namespace Stowatch
             Console.WriteLine("Quanto tempo deseja Contar?");
 
             String data = Console.ReadLine().ToLower();
-            char type = char.Parse(data.Substring(data.Length -1,1));
-            Console.WriteLine(data);
-            Console.WriteLine(type);
+            char type = char.Parse(data.Substring(data.Length -1, 1));
+            int time = int.Parse(data.Substring(0, data.Length - 1));
+            int multiplier = 1;
+
+            if (type == 'm')
+                multiplier = 60;
+
+            if (time == 0)
+                System.Environment.Exit(0);
+            
+            Start(time * multiplier);
         }
 
         static void Start(int time)
